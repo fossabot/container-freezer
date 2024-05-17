@@ -1,6 +1,8 @@
 **NOTE: The container freezer functionality was removed from Knative Serving in v1.10, and this repo was archived in April 2023.**
 
 # container-freezer
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknative-extensions%2Fcontainer-freezer.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fknative-extensions%2Fcontainer-freezer?ref=badge_shield)
+
 
 | STATUS | Sponsoring WG |
 | --- | --- |
@@ -56,3 +58,7 @@ kubectl patch configmap/config-deployment -n knative-serving --type merge -p '{"
 
 See the [sleeptalker](./test/test_images/sleeptalker/main.go) application.
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknative-extensions%2Fcontainer-freezer.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fknative-extensions%2Fcontainer-freezer?ref=badge_large)
